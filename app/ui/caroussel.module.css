@@ -1,0 +1,10 @@
+.aside {
+}
+.imgCar {
+  width: 100%;
+  height: clamp(18.75rem, 21.429vw + 14.464rem, 33.75rem);
+  position: relative;
+}
+.img {
+  object-fit: cover;
+}

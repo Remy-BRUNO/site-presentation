@@ -1,0 +1,49 @@
+.aside {
+  background-color: white;
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.projects {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: clamp(16.25rem, 18.214vw + 12.607rem, 29rem);
+  height: clamp(18.75rem, 16.071vw + 15.536rem, 30rem);
+  color: #989898;
+}
+.divImg {
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+.img {
+  object-fit: cover;
+}
+
+@media (min-width: 1000px) {
+  .projects {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    gap: 2rem;
+  }
+  .cards {
+    justify-content: space-between;
+  }
+}
